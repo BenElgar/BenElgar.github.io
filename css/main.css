@@ -1,14 +1,15 @@
 html
 {
     min-height: 100%;
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background: #ddd;
 }
 
 body
 {
     background: transparent;
-    font-family: 'Lato', sans-serif;
-    color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    padding-bottom: 50px;
 }
 
 hr
@@ -25,13 +26,15 @@ h1, h2
 
 h1
 {
-    font-size: 6em;
-    font-weight: 300;
+    font-size: 7em;
+    font-weight: 200;
+    /*font-family: 'Alegreya Sans SC', sans-serif;*/
+    font-family: 'Libre Baskerville', serif;
 }
 
 h2
 {
-    font-size: 3em;
+    font-size: 3.4em;
     font-weight: 100;
 }
 
@@ -39,11 +42,42 @@ h3
 {
     font-size: 2.4em;
     font-weight: 300;
+    padding-bottom: 10px;
+}
+
+hr.flaired {
+    height: 15px;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-radius: 30px;
+    margin-top: 0;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr.flaired:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 15px;
+    margin-top: -15px;    
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-radius: 30px;
+    margin-bottom: 0;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    font-size: 1.5em;
+    font-weight: 300;
 }
 
 .social-colour
 {
-    color: #1B2735;
+    color: #eee;
 }
 
 .social-link:hover
@@ -51,18 +85,33 @@ h3
     text-decoration: none;
 }
 
+.social-background
+{
+    color: #555;
+}
+
 .social:hover .social-background
 {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .social-details
 {
     display: none;
-    opacity: 0.5;
+    padding-top: 10px;
+    opacity: 0.7;
 }
 
 h4
 {
+    padding-bottom: 10px;
     font-size: 2.3em;
+}
+
+#me-image
+{
+    /*max-height: 200px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
