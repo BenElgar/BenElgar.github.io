@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/benelgar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://benelgar.com
+  * I am benelgar (https://keybase.io/benelgar) on keybase.
+  * I have a public key with fingerprint D083 46CA 2B15 988B 2FC6  EF74 2216 6E90 DD41 CE31
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "d08346ca2b15988b2fc6ef7422166e90dd41ce31",
+            "host": "keybase.io",
+            "key_id": "22166e90dd41ce31",
+            "kid": "010197d2132355698685bc5c357c8584e738761d86045d813f4ed3d519a30d10db1b0a",
+            "uid": "3358abb37727949cc730effdb8669a00",
+            "username": "benelgar"
+        },
+        "revoke": {
+            "sig_ids": [
+                "734ff87d553993c6785217b7a6b217bf20002accc7ba30254cb76842afcd26c80f"
+            ]
+        },
+        "service": {
+            "hostname": "benelgar.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424198009,
+    "expire_in": 157680000,
+    "prev": "355caf9bb4d7f12dea2d89b206cd9629799daef3f0ff2c126673cfe945c42961",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.4
+Comment: https://keybase.io/crypto
+
+yMJdAnicbVJLbFVVFH2vCEibpx0Qk4pOboyNSWnO//MUg8GIGgckrRoj+Ljn93pt
+372Pe19frbVqg9ZirCHEEgYqmjihiBO0oYRP/UQGiMRgEG1iSEzVgUJaJgJiPLfR
+iXG0c/Zee62Vtc8XpRWF1uLSxB+15q+vjRVPf/rOYKH3p13DI4FKzHBQHgn67XJx
+UVy1aT2N4kZQDgwQmDAdIgWpFEIhp5l1nCAEGbMSGEOgthgGXUFfkuUbnkaFme2O
+Et/zj0pkfPd/8P3LAwABlNwgiBGmlEnBBFWaaky5FlQQy7HgDBrBAKFGQOyINdhQ
+KEMMDARGQQVCTze4TIcxFaFSmHPEJZFacwysc0YJxmQIQA7MbBqHNevRysZ2oBqm
+wWhXkNpm0m/zBLKo6k1nQfnpgGPinOCGUiwl1owLiiBXPGQqrw4BAFCovYzydhAl
+WnEmCAqdNohpAVywzXN7xWakl8nzlP6j3q2TmvdVT5NGopMBP+lrNOpZOXfVGK7n
+0CGrKv+QVFQUG38jv9G0aRYlcVCGHqkbUc4KCSJQCgBkV2Cfq0eprUQ5gnpf3izI
+dWwzT4pSHTqpFDHcQWRsiIyQCgGmjWRIcilNaB12wDmkIWKMY+2sJFQTJFl+wczu
+iJOgzL3NsOopfXBx2BhMbTD62dzWmwrF1sKqlS35Lyu0rmn/9++d3nFzYebukz0t
+nYOX5lenH1xespMXa3v3HFjXuXXf7xPfnln6un3v4UcODmUdG8mus9/Vzmw5IvZ0
+7t955fjCfXddmGnbvejWXW/7rXfzl+tX/nD/WOnK9dopOXT2jQPrj+5/sMpH0Krt
+K8jCz2/d883ExZa1PVNPLB76fPH95y/Mh5Xd01ePlAqn3jz/9rb+jvGO+NzSuaPP
+Nrbclny1sXPm9juOvbJwbTqz9bE1n9wyikfu7H783ccalflH0fbWVzd9uPbWP6/d
+ODG385dD7T8O6z41+8LAwaknS8WPDr90ue31DX+1b9g3O91THMfHTz5wafLGi1Mn
+Xv7+/Mf44Xuv0vmHNs1tnn3mqXH5np4skd6/AZF3Rnk=
+=GB8R
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/benelgar
+
+==================================================================
