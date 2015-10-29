@@ -90,3 +90,8 @@ h4
     margin-right: auto;
     margin-bottom: 10px;
 }
+
+.extra-top-padding
+{
+     padding-top: 10px;
+}
