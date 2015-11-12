@@ -34,7 +34,7 @@ h1
 h2
 {
     font-size: 3.4em;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 h3
@@ -48,6 +48,7 @@ p
 {
     font-size: 1.5em;
     font-weight: 300;
+    text-align: justify;
 }
 
 .social-colour
@@ -79,8 +80,8 @@ p
 
 h4
 {
-    padding-bottom: 10px;
-    font-size: 2.3em;
+    /*padding-bottom: 10px;*/
+    font-size: 2.1em;
 }
 
 #me-image
@@ -93,5 +94,10 @@ h4
 
 .extra-top-padding
 {
-     padding-top: 10px;
+     padding-top: 20px;
+}
+
+.portfolio-body
+{
+    margin-top: 15px;
 }
