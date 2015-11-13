@@ -12,6 +12,14 @@ body
     padding-bottom: 50px;
 }
 
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        font-size: 1em;
+    }
+}
+
 hr
 {
     margin: 8px;
@@ -82,6 +90,19 @@ h4
 {
     /*padding-bottom: 10px;*/
     font-size: 2.1em;
+}
+
+@media screen and (max-width: 768px)
+{
+    .panel-heading>h4
+    {
+        font-size: 1.6em;
+    }
+
+    .portfolio-item-date
+    {
+        display: none;
+    }
 }
 
 #me-image
