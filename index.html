@@ -29,13 +29,13 @@
 
   <body>
     <div class='container'>
-      <div class='row'>
+      <header class='row'>
         <div class='col-xs-12'>
           <h1>Ben Elgar</h1>
           <hr>
-          <h2>Student, Teacher & Software Engineer</h2>
+          <h2>Distributed Systems Engineer</h2>
         </div>
-      </div>
+      </header>
 
 
       <div class='row'>
@@ -47,7 +47,13 @@
         </div>
         <div class='col-sm-12 col-md-9'>
           <p>
-            Hi! I'm Ben, a fourth year computer scientist and former president of the Computer Science Society at the University of Bristol. I've been programming since the age of seven and I love (almost) all things technological but am particularly interested in cybersecurity, cloud computing and web development. I'm always up for a chat, whether it's to discuss your latest business idea over a pint or to debate the utility of the latest JavaScript framework down at the local coffee shop, so feel free to contact me via any of the means below.
+            Hi! I'm Ben, a software engineer with a passion for distributed
+            systems and infrastructure engineering. I currently work at MongoDB
+            and am based mainly in London, England. I'm always up for a chat,
+            whether it's to discuss your latest business idea over a pint or to
+            debate the utility of the latest JavaScript framework down at the
+            local coffee shop, so feel free to contact me via any of the means
+            below.
           </p>
         </div>
       </div>
@@ -127,18 +133,76 @@
 
       <div class='row extra-top-padding'>
         <div class='col-sm-12 text-center'>
-          <h3>Portfolio & Projects</h3>
+          <h3>Experience, Portfolio & Projects</h3>
         </div>
       </div>
       <div class="row">
         <div class="panel-group" id="portfolio-group" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
 
+            <div class="panel-heading" role="tab" id="mongodb-heading">
+              <h4>
+                <a href="#portfolio-mongodb" role="button" data-toggle="collapse" data-parent="#portfolio-group" aria-expanded="false" aria-controls="portfolio-mongodb">
+                  MongoDB
+                  <span class="portfolio-item-date pull-right">November 2018 – Now</span>
+                </a>
+              </h4>
+            </div>
+            <div id="portfolio-mongodb" class="panel-collapse collapse" role="tabpanel" aria-labelledby="mongodb-heading">
+              <div class="panel-body">
+                <div class="col-sm-12">
+                  <p>
+                    At MongoDB I'm working on a Kubernetes operator written in Go for our <a href="https://www.mongodb.com/products/ops-manager">Ops Manager</a> product which allows customers to create, delete, monitor, backup and otherwise manage MongoDB instances as part of their Kubernetes cluster.
+                  </p>
+
+                  <p>
+                    <strong>
+                      The operator is available on <a href="https://docs.opsmanager.mongodb.com/current/tutorial/install-k8s-operator/">MongoDB's website</a> and on <a href="https://github.com/mongodb/mongodb-enterprise-kubernetes">Github</a>.
+                    </strong>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-heading" role="tab" id="mlab-heading">
+              <h4>
+                <a href="#portfolio-mlab" role="button" data-toggle="collapse" data-parent="#portfolio-group" aria-expanded="false" aria-controls="portfolio-mlab">
+                  mLab
+                  <span class="portfolio-item-date pull-right">September 2016 – November 2018</span>
+                </a>
+              </h4>
+            </div>
+            <div id="portfolio-mlab" class="panel-collapse collapse" role="tabpanel" aria-labelledby="mlab-heading">
+              <div class="panel-body">
+                <div class="col-sm-12">
+                  <p>
+                    At mLab I mainly worked on an open source system
+                    orchestration platform built on Kubernetes that we called
+                    Lattice. Lattice allowed users to write fully declarative
+                    system definitions to orchestrate large systems at scale.
+                    Lattice handled communicating with cloud providers to
+                    create cloud resources and then create, destroy, scale,
+                    monitor, secure and otherwise administer Kubernetes
+                    clusters in order to achieve the desired specified system
+                    configuration.
+                  </p>
+
+                  <p>
+                    <strong>
+                      Lattice is available on <a href="https://github.com/mlab-lattice/lattice">Github</a> (though hasn't been maintained since mLab's acquisition by MongoDB).
+                    </strong>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
             <div class="panel-heading" role="tab" id="permalinker-heading">
               <h4>
                 <a href="#portfolio-permalinker" role="button" data-toggle="collapse" data-parent="#portfolio-group" aria-expanded="false" aria-controls="portfolio-permalinker">
                   Permalinker
-                  <span class="portfolio-item-date pull-right">October 2015 - Now</span>
+                  <span class="portfolio-item-date pull-right">2015</span>
                 </a>
               </h4>
             </div>
@@ -146,10 +210,16 @@
               <div class="panel-body">
                 <div class="col-sm-12">
                   <p>
-                    I'm currently working on a web archiving service I call <a href="http://permalinker.benelgar.com/">Permalinker</a>. Permalinker is an open source distributed web archiving tool, allowing users to generate a permanent URL to a page as it currently appears.
+                    I built and intermittently work on a web archiving service
+                    I call Permalinker. Permalinker is an open source
+                    distributed web archiving tool, allowing users to generate
+                    a permanent URL to a page as it currently appears.
                   </p>
                   <p>
-                    Permalinker is built on Amazon Web Services, utilising DynamoDB and S3 to store data, SQS to queue jobs and Elastic Beanstalk to automatically scale the application to meet demand.
+                    Permalinker is built on Amazon Web Services, utilising
+                    DynamoDB and S3 to store data, SQS to queue jobs and
+                    Elastic Beanstalk to automatically scale the application to
+                    meet demand.
                   </p>
 
                   <p>
@@ -166,7 +236,7 @@
               <h4>
                 <a href="#portfolio-cpd" role="button" data-toggle="collapse" data-parent="#portfolio-group" aria-expanded="false" aria-controls="portfolio-cpd">
                   CPD for Teachers
-                  <span class="portfolio-item-date pull-right">May 2013 - October 2015</span>
+                  <span class="portfolio-item-date pull-right">May 2013 – October 2015</span>
                 </a>
               </h4>
             </div>
@@ -180,7 +250,7 @@
                     As a trainer, I travelled around the country teaching primary and secondary school teachers to use complex technologies in their classrooms. The technologies included everything from Python to MIT's App Inventor to the Raspberry Pi.
                   </p>
                   <p>
-                    As lead web developer, I led a team to redevelop the company's website from the ground up, including a comprehensive booking system, a mass emailer, a backup system and a content management system. This role also involved managing their large database - which included dozens of trainers, thousands of users, tens of thousands of bookings and every school in England and a significant percentage of the schools in the United States.
+                    As lead web developer, I led a team to redevelop the company's website from the ground up, including a comprehensive booking system, a mass emailer, a backup system and a content management system. This role also involved managing their large database—which included dozens of trainers, thousands of users, tens of thousands of bookings and every school in England and a significant percentage of the schools in the United States.
                   </p>
                 </div>
               </div>
@@ -190,7 +260,7 @@
               <h4>
                 <a href="#portfolio-trenchmill" role="button" data-toggle="collapse" data-parent="#portfolio-group" aria-expanded="false" aria-controls="portfolio-trenchmill">
                   Trenchmill
-                  <span class="portfolio-item-date pull-right">September 2014 - May 2015</span>
+                  <span class="portfolio-item-date pull-right">September 2014 – May 2015</span>
                 </a>
               </h4>
             </div>
@@ -218,6 +288,32 @@
               </div>
             </div>
 
+            <div class="panel-heading" role="tab" id="uob-heading">
+              <h4>
+                <a href="#portfolio-uob" role="button" data-toggle="collapse" data-parent="#portfolio-group" aria-expanded="false" aria-controls="portfolio-uob">
+                  University of Bristol
+                  <span class="portfolio-item-date pull-right">September 2012 – May 2016</span>
+                </a>
+              </h4>
+            </div>
+            <div id="portfolio-uob" class="panel-collapse collapse" role="tabpanel" aria-labelledby="uob-heading">
+              <div class="panel-body">
+                <div class="col-sm-12">
+                  <p>
+                    I studied Computer Science at the University of Bristol for
+                    four years after which I graduated with a first-class
+                    honours master's degree. I won a number of departmental and
+                    faculty awards in every year, including for the best
+                    third-year project and contributions to the life of the
+                    faculty. I also ran the Computer Science society with
+                    hundreds of members where I organised sponsorship from
+                    companies such as Microsoft and Bank of America and hosted
+                    events and hackathons.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -231,4 +327,3 @@
     <script src="js/main.js"></script>
   </body>
 </html>
-
